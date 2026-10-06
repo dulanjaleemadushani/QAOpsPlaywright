@@ -1,0 +1,26 @@
+{
+  "name": "typescriptproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test tests/webAPIPart1.spec.js --headed",
+    "Webtest": "npx playwright test tests/UIBasictest.spec.js --grep @WEB"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@azure/identity": "^4.13.3",
+    "@azure/playwright": "^1.1.6",
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.2.0",
+    "allure": "^3.19.1",
+    "allure-playwright": "^3.13.0",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}
