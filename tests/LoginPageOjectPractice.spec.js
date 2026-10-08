@@ -6,7 +6,7 @@ const dataSet =JSON.parse(JSON.stringify(require('../Utils/pageObjecttesttestDat
 const {customTest}=require('../Utils/test-base');
 
 
-// This is a page Object design pattern testdata file 
+// This is a page Object design pattern testdata file changes uptodate
 
 for(const data of dataSet){
 test(`verify Client App Login for ${data.productName}`, async ({ page }) => {
