@@ -6,6 +6,8 @@ const dataSet =JSON.parse(JSON.stringify(require('../Utils/pageObjecttesttestDat
 const {customTest}=require('../Utils/test-base');
 
 
+// This is a page Object design pattern testdata file 
+
 for(const data of dataSet){
 test(`verify Client App Login for ${data.productName}`, async ({ page }) => {
     const poManager =new POManager(page);
